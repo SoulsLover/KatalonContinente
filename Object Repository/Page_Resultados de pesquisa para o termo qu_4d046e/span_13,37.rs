@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_13,37</name>
+   <tag></tag>
+   <elementGuidId>bf4068ee-e803-4546-a677-8edef092bd3c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.minicart-total.d-block.d-md-none > div.minicart-wrapper.col-icon-cart > div.target-wrap > span.minicart-grandtotal</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//header[@id='brand-header']/nav/div/div/div[2]/div[3]/div[2]/div/div[2]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>adc61742-0d53-41c1-9541-3cff73a65b8f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>minicart-grandtotal</value>
+      <webElementGuid>6c1662d8-3f30-4f47-bca0-1ce91a0f209a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>€13,37</value>
+      <webElementGuid>a68756cd-7de1-4260-808d-d3c614bea833</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;brand-header&quot;)/nav[@class=&quot;nav-wrapper col-nav-wrapper&quot;]/div[@class=&quot;sticky-element navigation-shadows is-sticky&quot;]/div[@class=&quot;header-wrapper container-fluid container-margin d-flex align-items-center justify-content-between&quot;]/div[@class=&quot;user-util d-flex align-items-center&quot;]/div[@class=&quot;minicart col-minicart&quot;]/div[@class=&quot;minicart-total d-block d-md-none&quot;]/div[@class=&quot;minicart-wrapper col-icon-cart&quot;]/div[@class=&quot;target-wrap&quot;]/span[@class=&quot;minicart-grandtotal&quot;]</value>
+      <webElementGuid>b775e825-27f5-4488-8445-f4c52be654e8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//header[@id='brand-header']/nav/div/div/div[2]/div[3]/div[2]/div/div[2]/span</value>
+      <webElementGuid>f230a1cf-9fea-42d7-a1ad-bc82f9429171</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Anular'])[1]/following::span[4]</value>
+      <webElementGuid>f9e0da97-2997-4f17-9e37-ff675b4c4daa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Produto removido'])[1]/following::span[5]</value>
+      <webElementGuid>481e7d69-cf7f-4601-978f-a0adc7c754d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='un'])[2]/preceding::span[1]</value>
+      <webElementGuid>09d88086-9cb4-469b-9326-e963cb9205d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Produto removido'])[2]/preceding::span[2]</value>
+      <webElementGuid>7df20e1b-705d-48af-9e3b-e4c32181e2f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div/div[2]/span</value>
+      <webElementGuid>36823c51-56cb-4a5f-849f-76c856bb7816</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '€13,37' or . = '€13,37')]</value>
+      <webElementGuid>fec800f6-c9c7-4a87-bcdf-6acbf9c9e717</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
