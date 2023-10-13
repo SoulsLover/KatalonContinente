@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Continente,Chrome 117.0.0.0,,,2023-10-10 15:41:59,2023-10-10 15:49:18,"7m - 18,753s",FAILED
+,,,,,,,
+Test Cases/Show Cart,Chrome 117.0.0.0,,,2023-10-10 15:42:01,2023-10-10 15:46:29,"4m - 28,117s",FAILED
+"callTestCase(findTestCase(""Open Continente""), [:], STOP_ON_FAILURE)",Chrome 117.0.0.0,,,2023-10-10 15:42:03,2023-10-10 15:42:27,"23,659s",PASSED
+"callTestCase(findTestCase(""Search Product""), [:], STOP_ON_FAILURE)",Chrome 117.0.0.0,,,2023-10-10 15:42:27,2023-10-10 15:42:59,"32,018s",PASSED
+"callTestCase(findTestCase(""Add 1 Item to Cart""), [:], STOP_ON_FAILURE)",Chrome 117.0.0.0,,,2023-10-10 15:42:59,2023-10-10 15:44:13,"1m - 14,121s",PASSED
+"callTestCase(findTestCase(""Add 2 Items to Cart""), [:], STOP_ON_FAILURE)",Chrome 117.0.0.0,,,2023-10-10 15:44:13,2023-10-10 15:46:29,"2m - 16,016s",FAILED
+,,,,,,,
+Test Cases/Search Product,Chrome 117.0.0.0,,,2023-10-10 15:46:29,2023-10-10 15:47:00,"31,239s",PASSED
+"callTestCase(findTestCase(""Open Continente""), [:], STOP_ON_FAILURE)",Chrome 117.0.0.0,,,2023-10-10 15:46:29,2023-10-10 15:46:47,"17,870s",PASSED
+"click(findTestObject(""Object Repository/Page_Continente Online  Compras de Supermer_4cd3d9/svg_EntregaZero_svg-inline icon-search""))",Chrome 117.0.0.0,,,2023-10-10 15:46:47,2023-10-10 15:46:50,"2,772s",PASSED
+"setText(findTestObject(""Object Repository/Page_Continente Online  Compras de Supermer_4cd3d9/input_2023 Modelo Continente Hipermercados,_958617""), ""queijo"")",Chrome 117.0.0.0,,,2023-10-10 15:46:50,2023-10-10 15:46:51,"1,827s",PASSED
+"click(findTestObject(""Object Repository/Page_Continente Online  Compras de Supermer_4cd3d9/span_O que procura_svg-wrapper svg-icon-search""))",Chrome 117.0.0.0,,,2023-10-10 15:46:51,2023-10-10 15:47:00,"8,738s",PASSED
+,,,,,,,
+Test Cases/Open Continente,Chrome 117.0.0.0,,,2023-10-10 15:47:00,2023-10-10 15:47:16,"16,272s",PASSED
+"openBrowser("""")",Chrome 117.0.0.0,,,2023-10-10 15:47:00,2023-10-10 15:47:06,"5,630s",PASSED
+"navigateToUrl(""https://www.continente.pt/"")",Chrome 117.0.0.0,,,2023-10-10 15:47:06,2023-10-10 15:47:10,"3,752s",PASSED
+"click(findTestObject(""Object Repository/Page_Continente Online  Compras de Supermer_4cd3d9/button_Permitir todos""))",Chrome 117.0.0.0,,,2023-10-10 15:47:10,2023-10-10 15:47:16,"6,855s",PASSED
+,,,,,,,
+Test Cases/Add 2 Items to Cart,Chrome 117.0.0.0,,,2023-10-10 15:47:16,2023-10-10 15:48:34,"1m - 17,257s",FAILED
+"callTestCase(findTestCase(""Open Continente""), [:], STOP_ON_FAILURE)",Chrome 117.0.0.0,,,2023-10-10 15:47:17,2023-10-10 15:47:26,"9,740s",PASSED
+"callTestCase(findTestCase(""Search Product""), [:], STOP_ON_FAILURE)",Chrome 117.0.0.0,,,2023-10-10 15:47:26,2023-10-10 15:48:00,"33,396s",PASSED
+"click(findTestObject(""Page_Resultados de pesquisa para o termo qu_4d046e/span_Carrinho_2""))",Chrome 117.0.0.0,,,2023-10-10 15:48:00,2023-10-10 15:48:02,"2,195s",PASSED
+"click(findTestObject(""Page_Resultados de pesquisa para o termo qu_4d046e/button_Quantidade no carrinho_increase-quan_d2e8f5""))",Chrome 117.0.0.0,,,2023-10-10 15:48:02,2023-10-10 15:48:34,"31,772s",FAILED
+,,,,,,,
+Test Cases/Add 1 Item to Cart,Chrome 117.0.0.0,,,2023-10-10 15:48:34,2023-10-10 15:49:18,"44,063s",PASSED
+"callTestCase(findTestCase(""Open Continente""), [:], STOP_ON_FAILURE)",Chrome 117.0.0.0,,,2023-10-10 15:48:34,2023-10-10 15:48:45,"11,648s",PASSED
+"callTestCase(findTestCase(""Search Product""), [:], STOP_ON_FAILURE)",Chrome 117.0.0.0,,,2023-10-10 15:48:45,2023-10-10 15:49:15,"29,552s",PASSED
+"click(findTestObject(""Page_Resultados de pesquisa para o termo qu_4d046e/span_Carrinho""))",Chrome 117.0.0.0,,,2023-10-10 15:49:15,2023-10-10 15:49:18,"2,829s",PASSED
