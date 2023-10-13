@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Continente,Chrome 118.0.0.0,,,2023-10-13 16:39:30,2023-10-13 16:41:38,"2m - 7,853s",PASSED
+,,,,,,,
+Test Cases/Open Continente,Chrome 118.0.0.0,,,2023-10-13 16:39:30,2023-10-13 16:39:36,"5,753s",PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-13 16:39:31,2023-10-13 16:39:33,"2,359s",PASSED
+"navigateToUrl(""www.continente.pt"")",Chrome 118.0.0.0,,,2023-10-13 16:39:33,2023-10-13 16:39:35,"2,385s",PASSED
+"click(findTestObject(""Page_Continente Online  Compras de Supermer_4cd3d9/button_Permitir todos""))",Chrome 118.0.0.0,,,2023-10-13 16:39:35,2023-10-13 16:39:36,"0,723s",PASSED
+,,,,,,,
+Test Cases/Search Product,Chrome 118.0.0.0,,,2023-10-13 16:39:36,2023-10-13 16:39:49,"12,497s",PASSED
+"callTestCase(findTestCase(""Open Continente""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-13 16:39:36,2023-10-13 16:39:41,"4,698s",PASSED
+"click(findTestObject(""Page_Continente Online  Compras de Supermer_4cd3d9/svg_EntregaZero_svg-inline icon-search""))",Chrome 118.0.0.0,,,2023-10-13 16:39:41,2023-10-13 16:39:44,"3,363s",PASSED
+"setText(findTestObject(""Page_Continente Online  Compras de Supermer_4cd3d9/input_2023 Modelo Continente Hipermercados,_958617""), ""queijo"")",Chrome 118.0.0.0,,,2023-10-13 16:39:44,2023-10-13 16:39:46,"1,636s",PASSED
+"click(findTestObject(""Page_Continente Online  Compras de Supermer_4cd3d9/span_O que procura_svg-wrapper svg-icon-search""))",Chrome 118.0.0.0,,,2023-10-13 16:39:46,2023-10-13 16:39:49,"2,503s",PASSED
+,,,,,,,
+Test Cases/Add 1 Item to Cart,Chrome 118.0.0.0,,,2023-10-13 16:39:49,2023-10-13 16:40:10,"21,314s",PASSED
+"callTestCase(findTestCase(""Open Continente""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-13 16:39:49,2023-10-13 16:39:56,"7,689s",PASSED
+"callTestCase(findTestCase(""Search Product""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-13 16:39:56,2023-10-13 16:40:09,"12,271s",PASSED
+"click(findTestObject(""Page_Resultados de pesquisa para o termo qu_4d046e/span_Carrinho""))",Chrome 118.0.0.0,,,2023-10-13 16:40:09,2023-10-13 16:40:10,"1,234s",PASSED
+,,,,,,,
+Test Cases/Add 2 Items to Cart,Chrome 118.0.0.0,,,2023-10-13 16:40:10,2023-10-13 16:40:36,"26,468s",PASSED
+"callTestCase(findTestCase(""Open Continente""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-13 16:40:10,2023-10-13 16:40:14,"4,374s",PASSED
+"callTestCase(findTestCase(""Add 1 Item to Cart""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-13 16:40:14,2023-10-13 16:40:34,"19,353s",PASSED
+"click(findTestObject(""Page_Resultados de pesquisa para o termo qu_4d046e/span_Carrinho_2""))",Chrome 118.0.0.0,,,2023-10-13 16:40:34,2023-10-13 16:40:35,"1,736s",PASSED
+"click(findTestObject(""Page_Resultados de pesquisa para o termo qu_4d046e/button_aumentar_quantidade_produto""))",Chrome 118.0.0.0,,,2023-10-13 16:40:35,2023-10-13 16:40:36,"0,925s",PASSED
+,,,,,,,
+Test Cases/Show Cart,Chrome 118.0.0.0,,,2023-10-13 16:40:36,2023-10-13 16:41:38,"1m - 1,563s",PASSED
+"callTestCase(findTestCase(""Open Google""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-13 16:40:36,2023-10-13 16:40:40,"3,098s",PASSED
+"callTestCase(findTestCase(""Search Product""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-13 16:40:40,2023-10-13 16:40:52,"12,679s",PASSED
+"callTestCase(findTestCase(""Add 1 Item to Cart""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-13 16:40:52,2023-10-13 16:41:11,"19,015s",PASSED
+"callTestCase(findTestCase(""Add 2 Items to Cart""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-13 16:41:11,2023-10-13 16:41:37,"25,859s",PASSED
+"click(findTestObject(""Page_Resultados de pesquisa para o termo qu_4d046e/span_13,37""))",Chrome 118.0.0.0,,,2023-10-13 16:41:37,2023-10-13 16:41:38,"0,399s",PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-10-13 16:41:38,2023-10-13 16:41:38,"0,435s",PASSED

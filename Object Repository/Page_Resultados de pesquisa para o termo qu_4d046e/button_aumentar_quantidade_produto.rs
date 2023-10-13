@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_aumentar_quantidade_produto</name>
+   <tag></tag>
+   <elementGuidId>e8f802bf-c6a1-4142-afcf-6e2000806374</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@class='increase-quantity-btn']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>a571ba18-b31e-4662-91d3-99376a2d7584</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>2d0c0d6d-0828-4c0b-84f2-c2a0db0cd66e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Aumentar quantidade</value>
+      <webElementGuid>b34f2e4a-8799-456b-91a9-176e848a9e53</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>increase-quantity-btn</value>
+      <webElementGuid>7e666070-e4fe-4e6e-8800-c92ab1b91bb3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;product-search-results&quot;)/div[@class=&quot;search-results-grid&quot;]/div[@class=&quot;results-section&quot;]/div[@class=&quot;row product-grid no-gutters gtm-list&quot;]/div[@class=&quot;col-12 col-sm-3 col-lg-2 productTile&quot;]/div[@class=&quot;product highlighted-in-red col-color-highlighted&quot;]/div[@class=&quot;product-tile pid-4863936 ct-product-tile col-product-tile data-layer-pushed&quot;]/div[@class=&quot;ct-inner-tile-wrap col-inner-tile-wrap row no-gutters justify-content-center align-content-start&quot;]/div[@class=&quot;ct-tile-body col col-sm-auto&quot;]/div[@class=&quot;ct-tile-bottom row no-gutters justify-content-between ct-tile-bottom-padding-bottom-grid&quot;]/div[@class=&quot;pwc-tile-buy-section d-flex justify-content-center no-gutters pwc-tile-buy-section-padding col-auto col-sm-12 pwc-cta-align-bottom&quot;]/div[@class=&quot;col-sm-10 col-12&quot;]/div[@class=&quot;ct-tile-quantity tile&quot;]/div[@class=&quot;ct-tile-quantity-update quantity-update product-qty-vue&quot;]/div[@class=&quot;quantity-input-wrapper col-quantity-input-wrapper has-units&quot;]/span[@class=&quot;quantity-icon quantity-icon--plus&quot;]/button[@class=&quot;increase-quantity-btn&quot;]</value>
+      <webElementGuid>8cee09ce-4a29-423c-9762-17bec0bb9057</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='product-search-results']/div/div[2]/div[2]/div[2]/div/div/div/div[2]/div[2]/div[3]/div[2]/div/div[2]/div/span[2]/button</value>
+      <webElementGuid>98ce70f0-2fe4-4271-8c07-3b30a620b219</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quantidade no carrinho'])[2]/following::button[2]</value>
+      <webElementGuid>634ab86f-c074-4668-aded-37022b718d89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='/kg'])[2]/following::button[3]</value>
+      <webElementGuid>44f850eb-3c05-448a-a479-85415373e1b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Carrinho'])[2]/preceding::button[1]</value>
+      <webElementGuid>fc8cf892-3fb2-43e8-8bfb-9a47961deb6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Queijo Mozzarella'])[1]/preceding::button[2]</value>
+      <webElementGuid>5fa8fec7-abf8-419f-a7c9-06a546b0a2b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div[2]/div[2]/div[3]/div[2]/div/div[2]/div/span[2]/button</value>
+      <webElementGuid>feb20bb0-efc5-48fa-b7b0-280426c29198</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

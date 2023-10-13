@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Continente,,,,2023-10-13 16:23:16,2023-10-13 16:23:17,"0,346s",ERROR
+,,,,,,,
+Test Cases/Open Continente,,,,2023-10-13 16:23:16,2023-10-13 16:23:16,"0,034s",ERROR
+,,,,,,,
+Test Cases/Search Product,,,,2023-10-13 16:23:17,2023-10-13 16:23:17,"0,005s",ERROR
+,,,,,,,
+Test Cases/Add 1 Item to Cart,,,,2023-10-13 16:23:17,2023-10-13 16:23:17,"0,007s",ERROR
+,,,,,,,
+Test Cases/Add 2 Items to Cart,,,,2023-10-13 16:23:17,2023-10-13 16:23:17,"0,006s",ERROR
+,,,,,,,
+Test Cases/Show Cart,,,,2023-10-13 16:23:17,2023-10-13 16:23:17,"0,005s",ERROR
