@@ -6,12 +6,11 @@
    <elementGuidId>a1291198-5737-437d-8f4c-ab9eb7f21eae</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//span[text()='Carrinho'])[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//div[@id='product-search-results']/div/div[2]/div[2]/div/div/div/div/div[2]/div[2]/div[3]/div[2]/button/span[2])[2]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

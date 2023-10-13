@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Continente,Chrome 118.0.0.0,,,2023-10-13 15:29:44,2023-10-13 15:30:02,"17,786s",PASSED
+,,,,,,,
+Test Cases/Open Continente,Chrome 118.0.0.0,,,2023-10-13 15:29:44,2023-10-13 15:29:50,"5,664s",PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-13 15:29:44,2023-10-13 15:29:46,"2,220s",PASSED
+"navigateToUrl(""https://www.continente.pt/"")",Chrome 118.0.0.0,,,2023-10-13 15:29:46,2023-10-13 15:29:49,"2,474s",PASSED
+"click(findTestObject(""Object Repository/Page_Continente Online  Compras de Supermer_4cd3d9/button_Permitir todos""))",Chrome 118.0.0.0,,,2023-10-13 15:29:49,2023-10-13 15:29:50,"0,690s",PASSED
+,,,,,,,
+Test Cases/Search Product,Chrome 118.0.0.0,,,2023-10-13 15:29:50,2023-10-13 15:30:02,"11,879s",PASSED
+"callTestCase(findTestCase(""Open Continente""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-13 15:29:50,2023-10-13 15:29:54,"4,086s",PASSED
+"click(findTestObject(""Object Repository/Page_Continente Online  Compras de Supermer_4cd3d9/svg_EntregaZero_svg-inline icon-search""))",Chrome 118.0.0.0,,,2023-10-13 15:29:54,2023-10-13 15:29:57,"3,089s",PASSED
+"setText(findTestObject(""Object Repository/Page_Continente Online  Compras de Supermer_4cd3d9/input_2023 Modelo Continente Hipermercados,_958617""), ""queijo"")",Chrome 118.0.0.0,,,2023-10-13 15:29:57,2023-10-13 15:29:59,"1,935s",PASSED
+"click(findTestObject(""Object Repository/Page_Continente Online  Compras de Supermer_4cd3d9/span_O que procura_svg-wrapper svg-icon-search""))",Chrome 118.0.0.0,,,2023-10-13 15:29:59,2023-10-13 15:30:02,"2,436s",PASSED

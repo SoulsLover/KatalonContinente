@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Continente,Chrome 118.0.0.0,,,2023-10-13 15:27:00,2023-10-13 15:27:48,"48,334s",FAILED
+,,,,,,,
+Test Cases/Show Cart,Chrome 118.0.0.0,,,2023-10-13 15:27:00,2023-10-13 15:27:19,"18,427s",FAILED
+"callTestCase(findTestCase(""Open Continente""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-13 15:27:01,2023-10-13 15:27:12,"10,625s",PASSED
+"callTestCase(findTestCase(""Search Product""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-13 15:27:12,2023-10-13 15:27:19,"6,983s",FAILED
+,,,,,,,
+Test Cases/Search Product,Chrome 118.0.0.0,,,2023-10-13 15:27:19,2023-10-13 15:27:25,"6,889s",FAILED
+"callTestCase(findTestCase(""Open Continente""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-13 15:27:19,2023-10-13 15:27:25,"6,670s",PASSED
+"click(findTestObject(""Object Repository/Page_Continente Online  Compras de Supermer_4cd3d9/svg_EntregaZero_svg-inline icon-search""))",Chrome 118.0.0.0,,,2023-10-13 15:27:25,2023-10-13 15:27:25,"0,175s",FAILED
+,,,,,,,
+Test Cases/Open Continente,Chrome 118.0.0.0,,,2023-10-13 15:27:25,2023-10-13 15:27:32,"6,528s",PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-13 15:27:26,2023-10-13 15:27:27,"1,557s",PASSED
+"navigateToUrl(""https://www.continente.pt/"")",Chrome 118.0.0.0,,,2023-10-13 15:27:27,2023-10-13 15:27:29,"1,525s",PASSED
+"click(findTestObject(""Object Repository/Page_Continente Online  Compras de Supermer_4cd3d9/button_Permitir todos""))",Chrome 118.0.0.0,,,2023-10-13 15:27:29,2023-10-13 15:27:32,"2,985s",PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-10-13 15:27:32,2023-10-13 15:27:32,"0,436s",PASSED
+,,,,,,,
+Test Cases/Add 1 Item to Cart,Chrome 118.0.0.0,,,2023-10-13 15:27:32,2023-10-13 15:27:48,"16,046s",FAILED
+"callTestCase(findTestCase(""Open Continente""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-13 15:27:32,2023-10-13 15:27:42,"10,072s",PASSED
+"callTestCase(findTestCase(""Search Product""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-13 15:27:42,2023-10-13 15:27:48,"5,775s",FAILED

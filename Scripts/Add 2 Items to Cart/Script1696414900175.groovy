@@ -23,5 +23,5 @@ WebUI.callTestCase(findTestCase('Search Product'), [:], FailureHandling.STOP_ON_
 
 WebUI.click(findTestObject('Page_Resultados de pesquisa para o termo qu_4d046e/span_Carrinho_2'))
 
-WebUI.click(findTestObject('Page_Resultados de pesquisa para o termo qu_4d046e/button_Quantidade no carrinho_increase-quan_d2e8f5'))
+WebUI.click(findTestObject('Page_Resultados de pesquisa para o termo qu_4d046e/button_aumentar_quantidade_produto'))
 

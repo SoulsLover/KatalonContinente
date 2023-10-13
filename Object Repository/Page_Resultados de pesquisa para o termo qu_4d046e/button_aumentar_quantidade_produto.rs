@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Quantidade no carrinho_increase-quan_d2e8f5</name>
+   <name>button_aumentar_quantidade_produto</name>
    <tag></tag>
    <elementGuidId>e8f802bf-c6a1-4142-afcf-6e2000806374</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='product-search-results']/div/div[2]/div[2]/div[2]/div/div/div/div[2]/div[2]/div[3]/div[2]/div/div[2]/div/span[2]/button</value>
+         <value>//button[@class='increase-quantity-btn']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f3217608-3bc2-448a-9892-0ab28b3f3508</webElementGuid>
+      <webElementGuid>a571ba18-b31e-4662-91d3-99376a2d7584</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +29,7 @@
       <name>role</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>afaba128-7108-4954-acec-19eafcbb15cd</webElementGuid>
+      <webElementGuid>2d0c0d6d-0828-4c0b-84f2-c2a0db0cd66e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +37,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>Aumentar quantidade</value>
-      <webElementGuid>2aaa95d2-f8e0-451d-bd32-812f13121687</webElementGuid>
+      <webElementGuid>b34f2e4a-8799-456b-91a9-176e848a9e53</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>increase-quantity-btn</value>
-      <webElementGuid>928e71c8-def8-4870-be5a-21db7ac5595f</webElementGuid>
+      <webElementGuid>7e666070-e4fe-4e6e-8800-c92ab1b91bb3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;product-search-results&quot;)/div[@class=&quot;search-results-grid&quot;]/div[@class=&quot;results-section&quot;]/div[@class=&quot;row product-grid no-gutters gtm-list&quot;]/div[@class=&quot;col-12 col-sm-3 col-lg-2 productTile&quot;]/div[@class=&quot;product highlighted-in-red col-color-highlighted&quot;]/div[@class=&quot;product-tile pid-4863936 ct-product-tile col-product-tile data-layer-pushed&quot;]/div[@class=&quot;ct-inner-tile-wrap col-inner-tile-wrap row no-gutters justify-content-center align-content-start&quot;]/div[@class=&quot;ct-tile-body col col-sm-auto&quot;]/div[@class=&quot;ct-tile-bottom row no-gutters justify-content-between ct-tile-bottom-padding-bottom-grid&quot;]/div[@class=&quot;pwc-tile-buy-section d-flex justify-content-center no-gutters pwc-tile-buy-section-padding col-auto col-sm-12 pwc-cta-align-bottom&quot;]/div[@class=&quot;col-sm-10 col-12&quot;]/div[@class=&quot;ct-tile-quantity tile&quot;]/div[@class=&quot;ct-tile-quantity-update quantity-update product-qty-vue&quot;]/div[@class=&quot;quantity-input-wrapper col-quantity-input-wrapper has-units&quot;]/span[@class=&quot;quantity-icon quantity-icon--plus&quot;]/button[@class=&quot;increase-quantity-btn&quot;]</value>
-      <webElementGuid>65348a6f-3da4-4ca1-bde8-531bd0075d8c</webElementGuid>
+      <webElementGuid>8cee09ce-4a29-423c-9762-17bec0bb9057</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='product-search-results']/div/div[2]/div[2]/div[2]/div/div/div/div[2]/div[2]/div[3]/div[2]/div/div[2]/div/span[2]/button</value>
-      <webElementGuid>5bdf370b-cad2-432d-baef-62c12c6fb581</webElementGuid>
+      <webElementGuid>98ce70f0-2fe4-4271-8c07-3b30a620b219</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Quantidade no carrinho'])[2]/following::button[2]</value>
-      <webElementGuid>1132169a-d294-4caa-a2d5-6de6d3dea921</webElementGuid>
+      <webElementGuid>634ab86f-c074-4668-aded-37022b718d89</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='/kg'])[2]/following::button[3]</value>
-      <webElementGuid>d4175a65-b3eb-4035-9199-6e89c496e795</webElementGuid>
+      <webElementGuid>44f850eb-3c05-448a-a479-85415373e1b2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Carrinho'])[2]/preceding::button[1]</value>
-      <webElementGuid>e6d40ae4-1c6a-4095-8ad7-92ae9c9d6b69</webElementGuid>
+      <webElementGuid>fc8cf892-3fb2-43e8-8bfb-9a47961deb6e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Queijo Mozzarella'])[1]/preceding::button[2]</value>
-      <webElementGuid>48e2d158-3c27-46d0-a37e-f0d0ac9c6e3c</webElementGuid>
+      <webElementGuid>5fa8fec7-abf8-419f-a7c9-06a546b0a2b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +101,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div[2]/div[2]/div[3]/div[2]/div/div[2]/div/span[2]/button</value>
-      <webElementGuid>7296d8b0-f6c5-42c3-b183-5c66db278920</webElementGuid>
+      <webElementGuid>feb20bb0-efc5-48fa-b7b0-280426c29198</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
