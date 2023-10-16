@@ -21,7 +21,8 @@ WebUI.callTestCase(findTestCase('Open Continente'), [:], FailureHandling.STOP_ON
 
 WebUI.callTestCase(findTestCase('Add 1 Item to Cart'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Resultados de pesquisa para o termo qu_4d046e/span_Carrinho_2'))
+WebUI.click(findTestObject('Page_Resultados_de_pesquisa/span_Carrinho_2'))
 
-WebUI.click(findTestObject('Page_Resultados de pesquisa para o termo qu_4d046e/button_aumentar_quantidade_produto'))
+WebUI.click(findTestObject('Page_Resultados_de_pesquisa/button_aumentar_quantidade_produto'))
 
+WebUI.takeScreenshotAsCheckpoint('screenshot')

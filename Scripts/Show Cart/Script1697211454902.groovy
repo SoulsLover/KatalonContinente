@@ -25,7 +25,9 @@ WebUI.callTestCase(findTestCase('Add 1 Item to Cart'), [:], FailureHandling.STOP
 
 WebUI.callTestCase(findTestCase('Add 2 Items to Cart'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Resultados de pesquisa para o termo qu_4d046e/span_13,37'))
+WebUI.click(findTestObject('Page_Resultados_de_pesquisa/span_13,37'))
+
+WebUI.takeScreenshotAsCheckpoint('screenshot')
 
 WebUI.closeBrowser()
 

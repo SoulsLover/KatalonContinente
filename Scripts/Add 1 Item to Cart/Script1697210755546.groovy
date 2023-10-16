@@ -21,5 +21,6 @@ WebUI.callTestCase(findTestCase('Open Continente'), [:], FailureHandling.STOP_ON
 
 WebUI.callTestCase(findTestCase('Search Product'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Resultados de pesquisa para o termo qu_4d046e/span_Carrinho'))
+WebUI.click(findTestObject('Page_Resultados_de_pesquisa/span_Carrinho'))
 
+WebUI.takeScreenshotAsCheckpoint('screenshot')

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_2023 Modelo Continente Hipermercados,_958617</name>
+   <name>input_search_text</name>
    <tag></tag>
    <elementGuidId>30fef4fe-27e5-4e10-bcfc-de33c7f7b7ca</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#input-custom-label-search</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='input-custom-label-search']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#input-custom-label-search</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

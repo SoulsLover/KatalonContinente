@@ -16,14 +16,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('www.continente.pt')
 
-WebUI.click(findTestObject('Page_Continente Online  Compras de Supermer_4cd3d9/button_Permitir todos'))
+WebUI.click(findTestObject('Page_Continente_Online/button_Permitir todos'))
 
-WebUI.takeScreenshotAsCheckpoint('screenshot')
-
-WebUI.closeBrowser()
-
+WebUI.takeScreenshotAsCheckpoint('screenshot', FailureHandling.CONTINUE_ON_FAILURE)
