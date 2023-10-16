@@ -19,11 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('www.continente.pt')
-
-WebUI.click(findTestObject('Page_Continente Online  Compras de Supermer_4cd3d9/button_Permitir todos'))
-
-WebUI.takeScreenshotAsCheckpoint('screenshot')
-
-WebUI.closeBrowser()
+WebUI.navigateToUrl('www.pplware.pt')
 
