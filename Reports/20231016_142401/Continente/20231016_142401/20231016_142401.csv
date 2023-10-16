@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Continente,Chrome 118.0.0.0,,,2023-10-16 14:24:15,2023-10-16 14:25:52,"1m - 37,053s",FAILED
+,,,,,,,
+Test Cases/Open Continente,Chrome 118.0.0.0,,,2023-10-16 14:24:15,2023-10-16 14:24:29,"14,151s",PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-16 14:24:16,2023-10-16 14:24:20,"4,099s",PASSED
+"navigateToUrl(""www.continente.pt"")",Chrome 118.0.0.0,,,2023-10-16 14:24:20,2023-10-16 14:24:23,"3,020s",PASSED
+"click(findTestObject(""Page_Continente Online  Compras de Supermer_4cd3d9/button_Permitir todos""))",Chrome 118.0.0.0,,,2023-10-16 14:24:23,2023-10-16 14:24:24,"0,857s",PASSED
+"takeScreenshotAsCheckpoint(""screenshot"", CONTINUE_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-16 14:24:24,2023-10-16 14:24:29,"5,231s",PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-10-16 14:24:29,2023-10-16 14:24:29,"0,430s",PASSED
+,,,,,,,
+Test Cases/Search Product,Chrome 118.0.0.0,,,2023-10-16 14:24:29,2023-10-16 14:24:45,"15,336s",FAILED
+"callTestCase(findTestCase(""Open Continente""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-16 14:24:30,2023-10-16 14:24:44,"14,497s",PASSED
+"click(findTestObject(""Page_Continente Online  Compras de Supermer_4cd3d9/svg_EntregaZero_svg-inline icon-search""))",Chrome 118.0.0.0,,,2023-10-16 14:24:44,2023-10-16 14:24:45,"0,195s",FAILED
+,,,,,,,
+Test Cases/Add 1 Item to Cart,Chrome 118.0.0.0,,,2023-10-16 14:24:45,2023-10-16 14:25:10,"24,985s",FAILED
+"callTestCase(findTestCase(""Open Continente""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-16 14:24:45,2023-10-16 14:24:59,"13,690s",PASSED
+"callTestCase(findTestCase(""Search Product""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-16 14:24:59,2023-10-16 14:25:10,"11,154s",FAILED
+,,,,,,,
+Test Cases/Add 2 Items to Cart,Chrome 118.0.0.0,,,2023-10-16 14:25:10,2023-10-16 14:25:39,"29,559s",FAILED
+"callTestCase(findTestCase(""Open Continente""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-16 14:25:10,2023-10-16 14:25:19,"9,296s",PASSED
+"callTestCase(findTestCase(""Add 1 Item to Cart""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-16 14:25:19,2023-10-16 14:25:39,"20,096s",FAILED
+,,,,,,,
+Test Cases/Show Cart,Chrome 118.0.0.0,,,2023-10-16 14:25:39,2023-10-16 14:25:52,"12,647s",FAILED
+"callTestCase(findTestCase(""Open Google""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-16 14:25:39,2023-10-16 14:25:42,"3,074s",PASSED
+"callTestCase(findTestCase(""Search Product""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-16 14:25:42,2023-10-16 14:25:52,"9,441s",FAILED
