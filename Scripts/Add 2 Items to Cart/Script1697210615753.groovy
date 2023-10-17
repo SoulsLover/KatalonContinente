@@ -25,4 +25,4 @@ WebUI.click(findTestObject('Page_Resultados_de_pesquisa/span_Carrinho_2'))
 
 WebUI.click(findTestObject('Page_Resultados_de_pesquisa/button_aumentar_quantidade_produto'))
 
-WebUI.takeScreenshotAsCheckpoint('screenshot')
+//WebUI.takeScreenshotAsCheckpoint('screenshot')

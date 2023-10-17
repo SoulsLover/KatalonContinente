@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Continente,Chrome 118.0.0.0,,,2023-10-16 16:31:50,2023-10-16 16:35:34,"3m - 43,917s",PASSED
+,,,,,,,
+Test Cases/Open Continente,Chrome 118.0.0.0,,,2023-10-16 16:31:50,2023-10-16 16:32:08,"17,452s",PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-16 16:31:51,2023-10-16 16:31:56,"5,839s",PASSED
+maximizeWindow(),Chrome 118.0.0.0,,,2023-10-16 16:31:56,2023-10-16 16:31:57,"0,282s",PASSED
+"navigateToUrl(""www.continente.pt"")",Chrome 118.0.0.0,,,2023-10-16 16:31:57,2023-10-16 16:32:01,"4,417s",PASSED
+"click(findTestObject(""Page_Continente_Online/button_Permitir todos""))",Chrome 118.0.0.0,,,2023-10-16 16:32:01,2023-10-16 16:32:08,"6,617s",PASSED
+,,,,,,,
+Test Cases/Search Product,Chrome 118.0.0.0,,,2023-10-16 16:32:08,2023-10-16 16:32:34,"25,875s",PASSED
+"callTestCase(findTestCase(""Open Continente""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-16 16:32:09,2023-10-16 16:32:24,"15,718s",PASSED
+"setText(findTestObject(""Page_Continente_Online/input_search_text""), ""queijo"")",Chrome 118.0.0.0,,,2023-10-16 16:32:24,2023-10-16 16:32:27,"3,143s",PASSED
+"click(findTestObject(""Page_Continente_Online/span_search_item""))",Chrome 118.0.0.0,,,2023-10-16 16:32:27,2023-10-16 16:32:34,"6,205s",PASSED
+,,,,,,,
+Test Cases/Add 1 Item to Cart,Chrome 118.0.0.0,,,2023-10-16 16:32:34,2023-10-16 16:33:09,"35,772s",PASSED
+"callTestCase(findTestCase(""Open Continente""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-16 16:32:34,2023-10-16 16:32:46,"12,386s",PASSED
+"callTestCase(findTestCase(""Search Product""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-16 16:32:46,2023-10-16 16:33:07,"20,557s",PASSED
+"click(findTestObject(""Page_Resultados_de_pesquisa/span_Carrinho""))",Chrome 118.0.0.0,,,2023-10-16 16:33:07,2023-10-16 16:33:09,"2,402s",PASSED
+,,,,,,,
+Test Cases/Add 2 Items to Cart,Chrome 118.0.0.0,,,2023-10-16 16:33:09,2023-10-16 16:33:55,"45,604s",PASSED
+"callTestCase(findTestCase(""Open Continente""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-16 16:33:10,2023-10-16 16:33:21,"11,595s",PASSED
+"callTestCase(findTestCase(""Add 1 Item to Cart""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-16 16:33:21,2023-10-16 16:33:53,"31,620s",PASSED
+"click(findTestObject(""Page_Resultados_de_pesquisa/span_Carrinho_2""))",Chrome 118.0.0.0,,,2023-10-16 16:33:53,2023-10-16 16:33:54,"1,141s",PASSED
+"click(findTestObject(""Page_Resultados_de_pesquisa/button_aumentar_quantidade_produto""))",Chrome 118.0.0.0,,,2023-10-16 16:33:54,2023-10-16 16:33:55,"1,071s",PASSED
+,,,,,,,
+Test Cases/Show Cart,Chrome 118.0.0.0,,,2023-10-16 16:33:55,2023-10-16 16:35:34,"1m - 38,879s",PASSED
+"callTestCase(findTestCase(""Open Google""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-16 16:33:55,2023-10-16 16:34:01,"5,484s",PASSED
+"callTestCase(findTestCase(""Search Product""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-16 16:34:01,2023-10-16 16:34:21,"20,600s",PASSED
+"callTestCase(findTestCase(""Add 1 Item to Cart""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-16 16:34:21,2023-10-16 16:34:43,"21,534s",PASSED
+"callTestCase(findTestCase(""Add 2 Items to Cart""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-16 16:34:43,2023-10-16 16:35:33,"49,597s",PASSED
+"click(findTestObject(""Page_Resultados_de_pesquisa/span_13,37""))",Chrome 118.0.0.0,,,2023-10-16 16:35:33,2023-10-16 16:35:33,"0,575s",PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-10-16 16:35:33,2023-10-16 16:35:34,"0,811s",PASSED

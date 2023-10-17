@@ -8925,3 +8925,85 @@ Session ID: 998b62329759ee6601c5f32b3939106b</property>
   <escapedJava>false</escapedJava>
 </record>
 </log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-10-16T14:28:29.988068100Z</date>
+  <millis>1697466509988</millis>
+  <nanos>68100</nanos>
+  <sequence>4360</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1337</thread>
+  <message>Checking test object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-16T14:28:30.832313700Z</date>
+  <millis>1697466510832</millis>
+  <nanos>313700</nanos>
+  <sequence>4361</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1337</thread>
+  <message>Clicking on element: Button</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-16T14:29:11.520629Z</date>
+  <millis>1697466551520</millis>
+  <nanos>629000</nanos>
+  <sequence>4362</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1355</thread>
+  <message>Checking test object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-16T14:29:11.625303300Z</date>
+  <millis>1697466551625</millis>
+  <nanos>303300</nanos>
+  <sequence>4363</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1355</thread>
+  <message>Setting text on test object: Pane</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-16T14:29:28.140871900Z</date>
+  <millis>1697466568140</millis>
+  <nanos>871900</nanos>
+  <sequence>4364</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1362</thread>
+  <message>Checking test object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-16T14:29:28.314876800Z</date>
+  <millis>1697466568314</millis>
+  <nanos>876800</nanos>
+  <sequence>4365</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1362</thread>
+  <message>Clicking on element: Button</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+</log>

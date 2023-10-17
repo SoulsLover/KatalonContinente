@@ -23,4 +23,4 @@ WebUI.callTestCase(findTestCase('Search Product'), [:], FailureHandling.STOP_ON_
 
 WebUI.click(findTestObject('Page_Resultados_de_pesquisa/span_Carrinho'))
 
-WebUI.takeScreenshotAsCheckpoint('screenshot')
+//WebUI.takeScreenshotAsCheckpoint('screenshot')

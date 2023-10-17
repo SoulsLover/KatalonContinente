@@ -26,5 +26,5 @@ WebUI.setText(findTestObject('Page_Continente_Online/input_search_text'),'queijo
 
 WebUI.click(findTestObject('Page_Continente_Online/span_search_item'))
 
-WebUI.takeScreenshotAsCheckpoint('screenshot')
+//WebUI.takeScreenshotAsCheckpoint('screenshot')
 

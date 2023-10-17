@@ -27,7 +27,7 @@ WebUI.callTestCase(findTestCase('Add 2 Items to Cart'), [:], FailureHandling.STO
 
 WebUI.click(findTestObject('Page_Resultados_de_pesquisa/span_13,37'))
 
-WebUI.takeScreenshotAsCheckpoint('screenshot')
+//WebUI.takeScreenshotAsCheckpoint('screenshot')
 
 WebUI.closeBrowser()
 

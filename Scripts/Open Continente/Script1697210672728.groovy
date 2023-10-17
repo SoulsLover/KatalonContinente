@@ -27,4 +27,4 @@ WebUI.navigateToUrl('www.continente.pt')
 
 WebUI.click(findTestObject('Page_Continente_Online/button_Permitir todos'))
 
-WebUI.takeScreenshotAsCheckpoint('screenshot', FailureHandling.CONTINUE_ON_FAILURE)
+//WebUI.takeScreenshotAsCheckpoint('screenshot', FailureHandling.CONTINUE_ON_FAILURE)

@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Continente,Edge Chromium 117,,,2023-10-16 15:43:27,2023-10-16 15:46:22,"2m - 54,853s",PASSED
+,,,,,,,
+Test Cases/Open Continente,Edge Chromium 117,,,2023-10-16 15:43:27,2023-10-16 15:43:44,"16,966s",PASSED
+"openBrowser("""")",Edge Chromium 117,,,2023-10-16 15:43:27,2023-10-16 15:43:32,"4,796s",PASSED
+maximizeWindow(),Edge Chromium 117,,,2023-10-16 15:43:32,2023-10-16 15:43:32,"0,304s",PASSED
+"navigateToUrl(""www.continente.pt"")",Edge Chromium 117,,,2023-10-16 15:43:32,2023-10-16 15:43:39,"6,025s",PASSED
+"click(findTestObject(""Page_Continente_Online/button_Permitir todos""))",Edge Chromium 117,,,2023-10-16 15:43:39,2023-10-16 15:43:44,"5,513s",PASSED
+,,,,,,,
+Test Cases/Search Product,Edge Chromium 117,,,2023-10-16 15:43:44,2023-10-16 15:44:03,"19,045s",PASSED
+"callTestCase(findTestCase(""Open Continente""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-16 15:43:45,2023-10-16 15:43:52,"6,681s",PASSED
+"setText(findTestObject(""Page_Continente_Online/input_search_text""), ""queijo"")",Edge Chromium 117,,,2023-10-16 15:43:52,2023-10-16 15:43:57,"5,780s",PASSED
+"click(findTestObject(""Page_Continente_Online/span_search_item""))",Edge Chromium 117,,,2023-10-16 15:43:57,2023-10-16 15:44:03,"5,749s",PASSED
+,,,,,,,
+Test Cases/Add 1 Item to Cart,Edge Chromium 117,,,2023-10-16 15:44:03,2023-10-16 15:44:27,"23,754s",PASSED
+"callTestCase(findTestCase(""Open Continente""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-16 15:44:03,2023-10-16 15:44:10,"6,396s",PASSED
+"callTestCase(findTestCase(""Search Product""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-16 15:44:10,2023-10-16 15:44:24,"14,854s",PASSED
+"click(findTestObject(""Page_Resultados_de_pesquisa/span_Carrinho""))",Edge Chromium 117,,,2023-10-16 15:44:24,2023-10-16 15:44:27,"2,369s",PASSED
+,,,,,,,
+Test Cases/Add 2 Items to Cart,Edge Chromium 117,,,2023-10-16 15:44:27,2023-10-16 15:45:02,"35,124s",PASSED
+"callTestCase(findTestCase(""Open Continente""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-16 15:44:27,2023-10-16 15:44:33,"5,971s",PASSED
+"callTestCase(findTestCase(""Add 1 Item to Cart""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-16 15:44:33,2023-10-16 15:44:59,"25,619s",PASSED
+"click(findTestObject(""Page_Resultados_de_pesquisa/span_Carrinho_2""))",Edge Chromium 117,,,2023-10-16 15:44:59,2023-10-16 15:45:01,"2,151s",PASSED
+"click(findTestObject(""Page_Resultados_de_pesquisa/button_aumentar_quantidade_produto""))",Edge Chromium 117,,,2023-10-16 15:45:01,2023-10-16 15:45:02,"1,309s",PASSED
+,,,,,,,
+Test Cases/Show Cart,Edge Chromium 117,,,2023-10-16 15:45:02,2023-10-16 15:46:22,"1m - 19,537s",PASSED
+"callTestCase(findTestCase(""Open Google""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-16 15:45:02,2023-10-16 15:45:06,"3,593s",PASSED
+"callTestCase(findTestCase(""Search Product""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-16 15:45:06,2023-10-16 15:45:20,"14,785s",PASSED
+"callTestCase(findTestCase(""Add 1 Item to Cart""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-16 15:45:20,2023-10-16 15:45:48,"27,968s",PASSED
+"callTestCase(findTestCase(""Add 2 Items to Cart""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-16 15:45:48,2023-10-16 15:46:21,"32,300s",PASSED
+"click(findTestObject(""Page_Resultados_de_pesquisa/span_13,37""))",Edge Chromium 117,,,2023-10-16 15:46:21,2023-10-16 15:46:21,"0,425s",PASSED
+closeBrowser(),Edge Chromium 117,,,2023-10-16 15:46:21,2023-10-16 15:46:22,"0,422s",PASSED
