@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Random" time="19.055" tests="4" failures="0" errors="0">
+   <testsuite name="Random" tests="4" failures="0" errors="0" time="19.055" skipped="0" timestamp="2023-10-18 16:38:12" hostname="xavier.a.santos - MININT-CAEUVD4.noesis.pt" id="Test Suites/Random">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\xavier.a.santos\\git\\KatalonContinente\\Reports\\20231018_163806\\Random\\20231018_163806"/>
+         <property name="logFiles" value="C:\\Users\\xavier.a.santos\\git\\KatalonContinente\\Reports\\20231018_163806\\Random\\20231018_163806\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="xavier.a.santos - MININT-CAEUVD4.noesis.pt"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.0.0.beta.212"/>
+         <property name="browser" value="Chrome 118.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.133"/>
+         <property name="sessionId" value="2b52070a4acbeb50edcd6496aec2745d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC_04" time="6.635" classname="Test Cases/TC_04" status="PASSED">
+         <system-out><![CDATA[2023-10-18 16:38:12 - [TEST_CASE][PASSED] - Test Cases/TC_04: Test Cases/TC_04
+
+2023-10-18 16:38:13 - [TEST_STEP][PASSED] - openBrowser("www.google.pt"): Browser is opened with url: 'www.google.pt'
+
+2023-10-18 16:38:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-10-18 16:38:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-18 16:38:18 - [MESSAGE][PASSED] - Browser is opened with url: 'www.google.pt'
+
+2023-10-18 16:38:18 - [TEST_STEP][PASSED] - navigateToUrl("www.google.pt"): Navigate to 'http://www.google.pt' successfully
+
+2023-10-18 16:38:19 - [MESSAGE][PASSED] - Navigate to 'http://www.google.pt' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_03" time="3.981" classname="Test Cases/TC_03" status="PASSED">
+         <system-out><![CDATA[2023-10-18 16:38:19 - [TEST_CASE][PASSED] - Test Cases/TC_03: Test Cases/TC_03
+
+2023-10-18 16:38:19 - [TEST_STEP][PASSED] - openBrowser("www.google.pt"): Browser is opened with url: 'www.google.pt'
+
+2023-10-18 16:38:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-10-18 16:38:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-10-18 16:38:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-18 16:38:22 - [MESSAGE][PASSED] - Browser is opened with url: 'www.google.pt'
+
+2023-10-18 16:38:22 - [TEST_STEP][PASSED] - navigateToUrl("www.google.pt"): Navigate to 'http://www.google.pt' successfully
+
+2023-10-18 16:38:23 - [MESSAGE][PASSED] - Navigate to 'http://www.google.pt' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_02" time="4.135" classname="Test Cases/TC_02" status="PASSED">
+         <system-out><![CDATA[2023-10-18 16:38:23 - [TEST_CASE][PASSED] - Test Cases/TC_02: Test Cases/TC_02
+
+2023-10-18 16:38:23 - [TEST_STEP][PASSED] - openBrowser("www.google.pt"): Browser is opened with url: 'www.google.pt'
+
+2023-10-18 16:38:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-10-18 16:38:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-10-18 16:38:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-18 16:38:27 - [MESSAGE][PASSED] - Browser is opened with url: 'www.google.pt'
+
+2023-10-18 16:38:27 - [TEST_STEP][PASSED] - navigateToUrl("www.google.pt"): Navigate to 'http://www.google.pt' successfully
+
+2023-10-18 16:38:27 - [MESSAGE][PASSED] - Navigate to 'http://www.google.pt' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_01" time="3.844" classname="Test Cases/TC_01" status="PASSED">
+         <system-out><![CDATA[2023-10-18 16:38:27 - [TEST_CASE][PASSED] - Test Cases/TC_01: Test Cases/TC_01
+
+2023-10-18 16:38:27 - [TEST_STEP][PASSED] - openBrowser("www.google.pt"): Browser is opened with url: 'www.google.pt'
+
+2023-10-18 16:38:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-10-18 16:38:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-10-18 16:38:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-18 16:38:30 - [MESSAGE][PASSED] - Browser is opened with url: 'www.google.pt'
+
+2023-10-18 16:38:30 - [TEST_STEP][PASSED] - navigateToUrl("www.google.pt"): Navigate to 'http://www.google.pt' successfully
+
+2023-10-18 16:38:31 - [MESSAGE][PASSED] - Navigate to 'http://www.google.pt' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-10-18 16:38:12 - [TEST_SUITE][PASSED] - Random: Test Cases/TC_01]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

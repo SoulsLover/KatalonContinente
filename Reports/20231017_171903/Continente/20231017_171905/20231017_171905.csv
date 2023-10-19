@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Continente,,,,2023-10-17 17:19:12,2023-10-17 17:19:28,"15,831s",FAILED
+,,,,,,,
+Test Cases/Open Continente,,,,2023-10-17 17:19:12,2023-10-17 17:19:20,"7,367s",FAILED
+"openBrowser("""")",,,,2023-10-17 17:19:13,2023-10-17 17:19:20,"6,844s",FAILED
+,,,,,,,
+Test Cases/Search Product,,,,2023-10-17 17:19:20,2023-10-17 17:19:22,"1,877s",FAILED
+"callTestCase(findTestCase(""Open Continente""), [:], STOP_ON_FAILURE)",,,,2023-10-17 17:19:20,2023-10-17 17:19:22,"1,687s",FAILED
+,,,,,,,
+Test Cases/Add 1 Item to Cart,,,,2023-10-17 17:19:22,2023-10-17 17:19:24,"1,843s",FAILED
+"callTestCase(findTestCase(""Open Continente""), [:], STOP_ON_FAILURE)",,,,2023-10-17 17:19:22,2023-10-17 17:19:24,"1,696s",FAILED
+,,,,,,,
+Test Cases/Add 2 Items to Cart,,,,2023-10-17 17:19:24,2023-10-17 17:19:26,"2,640s",FAILED
+"callTestCase(findTestCase(""Open Continente""), [:], STOP_ON_FAILURE)",,,,2023-10-17 17:19:24,2023-10-17 17:19:26,"2,418s",FAILED
+,,,,,,,
+Test Cases/Show Cart,,,,2023-10-17 17:19:26,2023-10-17 17:19:28,"1,667s",FAILED
+"callTestCase(findTestCase(""Open Google""), [:], STOP_ON_FAILURE)",,,,2023-10-17 17:19:26,2023-10-17 17:19:28,"1,481s",FAILED

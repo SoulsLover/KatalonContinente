@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Random,Chrome 118.0.0.0,,,2023-10-18 16:38:12,2023-10-18 16:38:31,"19,055s",PASSED
+,,,,,,,
+Test Cases/TC_04,Chrome 118.0.0.0,,,2023-10-18 16:38:12,2023-10-18 16:38:19,"6,635s",PASSED
+"openBrowser(""www.google.pt"")",Chrome 118.0.0.0,,,2023-10-18 16:38:13,2023-10-18 16:38:18,"5,479s",PASSED
+"navigateToUrl(""www.google.pt"")",Chrome 118.0.0.0,,,2023-10-18 16:38:18,2023-10-18 16:38:19,"0,739s",PASSED
+,,,,,,,
+Test Cases/TC_03,Chrome 118.0.0.0,,,2023-10-18 16:38:19,2023-10-18 16:38:23,"3,981s",PASSED
+"openBrowser(""www.google.pt"")",Chrome 118.0.0.0,,,2023-10-18 16:38:19,2023-10-18 16:38:22,"3,284s",PASSED
+"navigateToUrl(""www.google.pt"")",Chrome 118.0.0.0,,,2023-10-18 16:38:22,2023-10-18 16:38:23,"0,675s",PASSED
+,,,,,,,
+Test Cases/TC_02,Chrome 118.0.0.0,,,2023-10-18 16:38:23,2023-10-18 16:38:27,"4,135s",PASSED
+"openBrowser(""www.google.pt"")",Chrome 118.0.0.0,,,2023-10-18 16:38:23,2023-10-18 16:38:27,"3,429s",PASSED
+"navigateToUrl(""www.google.pt"")",Chrome 118.0.0.0,,,2023-10-18 16:38:27,2023-10-18 16:38:27,"0,694s",PASSED
+,,,,,,,
+Test Cases/TC_01,Chrome 118.0.0.0,,,2023-10-18 16:38:27,2023-10-18 16:38:31,"3,844s",PASSED
+"openBrowser(""www.google.pt"")",Chrome 118.0.0.0,,,2023-10-18 16:38:27,2023-10-18 16:38:30,"3,096s",PASSED
+"navigateToUrl(""www.google.pt"")",Chrome 118.0.0.0,,,2023-10-18 16:38:30,2023-10-18 16:38:31,"0,674s",PASSED

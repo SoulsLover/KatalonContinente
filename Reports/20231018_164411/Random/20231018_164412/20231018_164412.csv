@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Random,,,,2023-10-18 16:44:18,2023-10-18 16:44:30,"11,369s",FAILED
+,,,,,,,
+Test Cases/TC_04,,,,2023-10-18 16:44:19,2023-10-18 16:44:25,"5,930s",FAILED
+"openBrowser(""www.google.pt"")",,,,2023-10-18 16:44:19,2023-10-18 16:44:25,"5,558s",FAILED
+,,,,,,,
+Test Cases/TC_03,,,,2023-10-18 16:44:25,2023-10-18 16:44:26,"1,591s",FAILED
+"openBrowser(""www.google.pt"")",,,,2023-10-18 16:44:25,2023-10-18 16:44:26,"1,518s",FAILED
+,,,,,,,
+Test Cases/TC_02,,,,2023-10-18 16:44:26,2023-10-18 16:44:28,"1,782s",FAILED
+"openBrowser(""www.google.pt"")",,,,2023-10-18 16:44:26,2023-10-18 16:44:28,"1,609s",FAILED
+,,,,,,,
+Test Cases/TC_01,,,,2023-10-18 16:44:28,2023-10-18 16:44:30,"1,596s",FAILED
+"openBrowser(""www.google.pt"")",,,,2023-10-18 16:44:28,2023-10-18 16:44:30,"1,479s",FAILED
